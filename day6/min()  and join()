@@ -1,0 +1,54 @@
+语法
+min()方法语法：min(str)
+
+返回值
+返回字符串中最小的字母。
+
+实例
+#!/usr/bin/python
+
+str = "this-is-real-string-example....wow!!!";
+print "Min character: " + min(str);
+
+str = "this-is-a-string-example....wow!!!";
+print "Min character: " + min(str);
+
+以上实例输出结果如下：
+Min character: !
+Min character: !
+
+join
+描述
+Python join() 方法用于将序列中的元素以指定的字符连接生成一个新的字符串。
+
+语法
+join()方法语法：str.join(sequence)
+
+参数
+sequence -- 要连接的元素序列。
+
+返回值
+返回通过指定字符连接序列中元素后生成的新字符串。
+
+实例
+以下实例展示了join()的使用方法：
+
+实例(Python 2.0+)
+#!/usr/bin/python
+# -*- coding: UTF-8 -*- 
+str = "-";
+seq = ("a", "b", "c"); # 字符串序列
+print str.join( seq );
+以上实例输出结果如下：
+a-b-c
+
+实例
+#!/usr/bin/python3
+s1 = "-"
+s2 = ""
+seq = ("r", "u", "n", "o", "o", "b") # 字符串序列
+print (s1.join( seq ))
+print (s2.join( seq ))
+以上实例输出结果如下：
+r-u-n-o-o-b
+runoob
